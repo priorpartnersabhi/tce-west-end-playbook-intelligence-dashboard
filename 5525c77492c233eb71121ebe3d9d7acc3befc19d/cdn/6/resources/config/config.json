@@ -1080,27 +1080,11 @@
           "setting": {
             "heightMode": "fixed"
           }
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_367",
-          "bbox": {
-            "left": "446px",
-            "right": "846px",
-            "top": "2381px",
-            "bottom": "2781px",
-            "width": "400px",
-            "height": 167
-          },
-          "setting": {
-            "heightMode": "fixed"
-          }
         }
       },
       "order": [
         "0",
         "3",
-        "4",
         "2"
       ]
     },
@@ -1637,29 +1621,6 @@
     },
     "layout_142": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_354",
-          "bbox": {
-            "left": "0.5%",
-            "right": "96.8%",
-            "top": "86.9%",
-            "bottom": "4.0%",
-            "width": "42px",
-            "height": "73px"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false,
-            "lockParent": true
-          }
-        },
         "2": {
           "type": "WIDGET",
           "widgetId": "widget_355",
@@ -1681,13 +1642,60 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "4": {
+          "type": "SECTION",
+          "sectionId": "section_3",
+          "bbox": {
+            "left": "0.0%",
+            "right": "30.4%",
+            "top": "72.3%",
+            "bottom": "8.4%",
+            "width": "69.6%",
+            "height": "19.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_616",
+          "bbox": {
+            "left": "-0.0%",
+            "right": "86.1%",
+            "top": "93.1%",
+            "bottom": "3.3%",
+            "width": "213px",
+            "height": "29px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       },
       "type": "FIXED",
       "label": "Map FixedLayout",
       "order": [
-        "0",
-        "2"
+        "2",
+        "4",
+        "5"
       ]
     },
     "layout_143": {
@@ -1829,23 +1837,6 @@
             "height": "57.6184%"
           }
         },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_364",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 6,
-            "width": 3,
-            "height": "57.6184%"
-          }
-        },
         "2": {
           "type": "WIDGET",
           "widgetId": "widget_365",
@@ -1859,23 +1850,6 @@
           },
           "bbox": {
             "left": 3,
-            "width": 2,
-            "height": "57.6184%"
-          }
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_366",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 10,
             "width": 2,
             "height": "57.6184%"
           }
@@ -1899,30 +1873,7 @@
       },
       "order": [
         "0",
-        "1",
-        "2",
-        "3"
-      ]
-    },
-    "layout_149": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_368",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": "400px"
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
+        "2"
       ]
     },
     "layout_150": {
@@ -1933,8 +1884,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
+            "top": "-0.2%",
+            "bottom": "0.2%",
             "width": "100.0%",
             "height": "100.0%"
           },
@@ -1943,12 +1894,20 @@
               "height": "AUTO",
               "left": true,
               "right": false,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             },
             "vCenter": false,
             "hCenter": false,
-            "lockParent": true
+            "lockParent": true,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "FADE_IN",
+                "option": {
+                  "direction": null
+                }
+              }
+            }
           }
         }
       },
@@ -2781,10 +2740,10 @@
           "bbox": {
             "left": "17.7%",
             "right": "2.5%",
-            "top": "10.9%",
+            "top": "0.0%",
             "bottom": "0.0%",
             "width": "79.8%",
-            "height": "89.1%"
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
@@ -2811,10 +2770,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "82.3%",
-            "top": "10.9%",
+            "top": "0.0%",
             "bottom": "0.0%",
             "width": "17.7%",
-            "height": "89.1%"
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
@@ -2824,33 +2783,12 @@
               "bottom": false
             }
           }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_506",
-          "bbox": {
-            "left": "39.0%",
-            "right": "2.5%",
-            "top": "0.0%",
-            "bottom": "89.1%",
-            "width": "58.5%",
-            "height": "10.9%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            }
-          }
         }
       },
       "type": "FIXED",
       "label": "Default",
       "order": [
         "0",
-        "2",
         "1"
       ]
     },
@@ -3063,7 +3001,7 @@
           "widgetId": "widget_502",
           "bbox": {
             "left": "0.0%",
-            "right": "-0.0%",
+            "right": "0.0%",
             "top": "0.0%",
             "bottom": "0.0%",
             "width": "100.0%",
@@ -3176,100 +3114,6 @@
         "2"
       ],
       "label": "Default"
-    },
-    "layout_205": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_507",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 2,
-            "height": "57.6184%"
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_508",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 3,
-            "width": 3,
-            "height": "57.6184%"
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_509",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 7,
-            "width": 2,
-            "height": "57.6184%"
-          }
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_510",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 10,
-            "width": 2,
-            "height": "57.6184%"
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "setting": {
-        "space": 0,
-        "style": {
-          "padding": {
-            "number": [
-              10,
-              10,
-              10,
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "order": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ]
     },
     "layout_206": {
       "type": "FIXED",
@@ -4061,23 +3905,6 @@
             "height": "57.6184%"
           }
         },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_558",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 3,
-            "width": 3,
-            "height": "57.6184%"
-          }
-        },
         "2": {
           "type": "WIDGET",
           "widgetId": "widget_559",
@@ -4090,24 +3917,7 @@
             }
           },
           "bbox": {
-            "left": 7,
-            "width": 2,
-            "height": "57.6184%"
-          }
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_560",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          },
-          "bbox": {
-            "left": 10,
+            "left": 3,
             "width": 2,
             "height": "57.6184%"
           }
@@ -4131,9 +3941,7 @@
       },
       "order": [
         "0",
-        "1",
-        "2",
-        "3"
+        "2"
       ]
     },
     "layout_230": {
@@ -4291,6 +4099,38 @@
       "order": [
         "0"
       ]
+    },
+    "layout_238": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_368",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_240": {
+      "type": "FIXED",
+      "content": {}
     }
   },
   "exbVersion": "1.18.0",
@@ -4507,6 +4347,7 @@
       "label": "Confidentiality Text",
       "config": {
         "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 1.125rem;\">This webpage and the information on it are provided in confidence for The Crown Estate only and may not be disclosed to any third party of used for any other purpose.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -4519,6 +4360,7 @@
       "label": "Footer Text",
       "config": {
         "text": "<p style=\"text-align: right;\"><span style=\"color: rgb(255, 255, 255); font-size: 1.125rem;\">© 2025 West End Playbook</span></p><p style=\"text-align: right;\"><span style=\"color: rgb(255, 255, 255); font-size: 1.125rem;\">Developed by Prior+Partners</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -4591,6 +4433,7 @@
       "label": "Text",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 10.5rem;\">﻿West End </span></p><p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 10.5rem;\">Playbook</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -4638,6 +4481,7 @@
       "label": "Text 2",
       "config": {
         "text": "<p style=\"line-height: 1;\"><a href=\"page_8\" target=\"_self\" data-uniqueid=\"ac6fbb06_c213_c8db_21b5_4a9d827d719b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_8%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-size: 1.5rem; color: var(--dark); font-family: Arial;\">Go to dashboards</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "color": "var(--dark)"
@@ -4788,7 +4632,8 @@
       "version": "1.18.0",
       "label": "Page Heading 4",
       "config": {
-        "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 4.375rem; color: rgb(255, 255, 255);\">About this</span></p><p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 4.375rem; color: rgb(255, 255, 255);\">platform</span></p>",
+        "text": "<p style=\"line-height: 1.1;\"><span style=\"color: rgb(255, 255, 255); font-size: 4.375rem; font-family: Arial;\">About the</span></p><p style=\"line-height: 1.1;\"><span style=\"color: rgb(255, 255, 255); font-size: 4.375rem; font-family: Arial;\">platform</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -4823,6 +4668,7 @@
       "label": "Body Text 4",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem; font-family: Arial;\">The platform will provide the Urban teams with a centralised, spatially intelligent interface that brings together key datasets, analytical tools, KPIs, and reference materials.   </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem; font-family: Arial;\"><span class=\"ql-cursor\">﻿</span>This tool will enable review and scenario planning to guide strategic estate management and investment decisions, and support the implementation of the Playbook's Place Ambition.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -4836,6 +4682,7 @@
       "label": "Development Pipeline Navigation 5",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><a href=\"page_9\" target=\"_self\" data-uniqueid=\"a0df3524_fe43_3047_e82e_d7dc3f52857c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_9%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: Arial; font-size: 1.5rem; color: rgb(255, 255, 255);\">Transforming the West End</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -4863,7 +4710,10 @@
         "functionConfig": {
           "altText": "",
           "toolTip": "",
-          "linkParam": {},
+          "linkParam": {
+            "linkType": "BLOCK",
+            "value": "layout_121_block_3"
+          },
           "scale": "Fit",
           "imageParam": {
             "url": "${appResourceUrl}/images/widget_312/1762611205901.png",
@@ -4883,7 +4733,8 @@
         },
         "styleConfig": {}
       },
-      "id": "widget_312"
+      "id": "widget_312",
+      "useDataSources": []
     },
     "widget_313": {
       "uri": "widgets/common/text/",
@@ -4891,6 +4742,7 @@
       "label": "Scroll to dashboard text 3",
       "config": {
         "text": "<p style=\"line-height: 1;\"><span style=\"color: rgb(255, 255, 255); font-family: Arial; font-size: 1.5rem;\">Scroll to dashboards</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -4904,6 +4756,7 @@
       "label": "Text 15",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><span style=\"font-size: 1.5rem; color: rgb(255, 255, 255); font-family: Arial;\">/</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -4917,6 +4770,7 @@
       "label": "Page Heading 5",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"color: rgb(255, 255, 255); font-size: 3rem; font-family: Arial;\">About the Proof of Concept</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -4929,7 +4783,8 @@
       "version": "1.18.0",
       "label": "Body Text 5",
       "config": {
-        "text": "<p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem;\">Prior + Partners are developing a proof of concept version of the platform to illustrate its potential and functionality. The platform will include intuitive web applications and dashboards focused on the phasing of the estate, a sector-based analysis of workspace and a digital library of key reports and strategies.</span></p>",
+        "text": "<p style=\"line-height: 1.2;\"><span style=\"font-family: Arial; font-size: 1.5rem;\">Prior + Partners have developed a proof of concept version of the platform to illustrate its potential and functionality. The platform will include intuitive web applications and dashboards focused on the phasing of development projects across the estate and a sector-based analysis of commercial floorspace. </span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -5025,6 +4880,7 @@
       "label": "Confidentiality Text 4",
       "config": {
         "text": "<p><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">This webpage and the information on it are provided in confidence for The Crown Estate only and may not be disclosed to any third party of used for any other purpose.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5037,6 +4893,7 @@
       "label": "Footer Text 4",
       "config": {
         "text": "<p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">© 2025 West End Playbook</span></p><p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">Developed by Prior+Partners</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5172,6 +5029,7 @@
       "label": "Text 16",
       "config": {
         "text": "<p><a href=\"page_9\" target=\"_self\" data-uniqueid=\"5eb27254_f03c_2b6d_668f_9693c86e7a0c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_9%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-size: 1.5rem; font-family: Arial; color: var(--dark);\">﻿Go to the prototype dashboard</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "var(--dark)"
@@ -5302,6 +5160,7 @@
       "label": "Page Heading 6",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 4.375rem; color: rgb(53, 53, 53);\">Transforming the </span></p><p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 4.375rem; color: rgb(53, 53, 53);\">West End</span></p><p style=\"line-height: 1.1;\"><br></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5335,6 +5194,7 @@
       "label": "Body Text 6",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem; color: rgb(53, 53, 53); font-family: Arial;\">A web-based geospatial dashboard presenting developments across the estate in an intuitive, time-sequenced 3D environment. </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem; color: rgb(53, 53, 53); font-family: Arial;\">﻿It communicates the phasing of the estate, including development pipeline, capital works, public realm and key infrastructure projects to support strategic planning and decision-making.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5349,7 +5209,10 @@
         "functionConfig": {
           "altText": "",
           "toolTip": "",
-          "linkParam": {},
+          "linkParam": {
+            "linkType": "BLOCK",
+            "value": "layout_134_block_3"
+          },
           "scale": "Fit",
           "imageParam": {
             "url": "${appResourceUrl}/images/widget_66/1762542974892.png",
@@ -5369,7 +5232,8 @@
         },
         "styleConfig": {}
       },
-      "id": "widget_340"
+      "id": "widget_340",
+      "useDataSources": []
     },
     "widget_341": {
       "uri": "widgets/common/text/",
@@ -5377,6 +5241,7 @@
       "label": "Scroll to dashboard text 4",
       "config": {
         "text": "<p style=\"line-height: 1;\"><span style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\">Scroll to dashboard</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5389,6 +5254,7 @@
       "label": "Page Heading 7",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 3rem; color: rgb(53, 53, 53);\">Key features</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5401,6 +5267,7 @@
       "label": "Body Text 7",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">01</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> A 3D representation of the development pipeline and capital works programme showing phasing timelines and project sequencing; </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">﻿02</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Visualisation of the Future of RSHPC public realm and district energy network layers showing phasing timelines to provide spatial context and support integrated decision-making; </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">03</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Filtering and navigation tools to allow users to explore projects by time frame, type, or location.</span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">﻿04</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Compare properties to identify strategic opportunities and minimise risk.</span></p><p style=\"line-height: 1.2;\"><br></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5495,6 +5362,7 @@
       "label": "Confidentiality Text 5",
       "config": {
         "text": "<p><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">This webpage and the information on it are provided in confidence for The Crown Estate only and may not be disclosed to any third party of used for any other purpose.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5507,6 +5375,7 @@
       "label": "Footer Text 5",
       "config": {
         "text": "<p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">© 2025 West End Playbook</span></p><p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">Developed by Prior+Partners</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -5601,99 +5470,6 @@
         }
       ],
       "enableDataAction": false
-    },
-    "widget_354": {
-      "uri": "widgets/arcgis/3d-toolbox/",
-      "version": "1.18.0",
-      "offPanel": true,
-      "label": "3D Toolbox 2",
-      "config": {
-        "tools": [
-          {
-            "id": "daylight",
-            "enable": true,
-            "activedOnLoad": false,
-            "config": {
-              "timezone": true,
-              "timeSliderSteps": 5,
-              "playButtons": true,
-              "playSpeedMultiplier": "1.0",
-              "dateTimeAutoPlay": false,
-              "datePicker": true,
-              "dateOrSeason": "date",
-              "currentSeason": "syncedWithMap",
-              "isShowShadows": true,
-              "dateTimeToggle": true
-            }
-          },
-          {
-            "id": "weather",
-            "enable": false,
-            "activedOnLoad": false,
-            "config": {
-              "weatherType": "sunny",
-              "sunnyConfig": {
-                "cloudCover": 0.5
-              },
-              "cloudyConfig": {
-                "cloudCover": 0.5
-              },
-              "rainyConfig": {
-                "cloudCover": 0.5,
-                "precipitation": 0.5
-              },
-              "snowyConfig": {
-                "cloudCover": 0.5,
-                "precipitation": 0.5
-              },
-              "foggyConfig": {
-                "fogStrength": 0.5
-              }
-            }
-          },
-          {
-            "id": "shadowcast",
-            "enable": true,
-            "activedOnLoad": false,
-            "config": {
-              "visType": "threshold",
-              "timezone": true,
-              "datePicker": true
-            }
-          },
-          {
-            "id": "lineofsight",
-            "enable": false,
-            "activedOnLoad": false,
-            "config": {}
-          },
-          {
-            "id": "slice",
-            "enable": false,
-            "activedOnLoad": false,
-            "config": {
-              "tiltEnabled": false,
-              "excludeGroundSurface": true,
-              "analyses": []
-            }
-          }
-        ],
-        "arrangement": {
-          "style": "icon",
-          "direction": "vertical"
-        }
-      },
-      "id": "widget_354",
-      "useMapWidgetIds": [
-        "widget_353"
-      ],
-      "style": {
-        "border": {
-          "type": "solid",
-          "color": "#000000",
-          "width": "0px"
-        }
-      }
     },
     "widget_355": {
       "uri": "widgets/layout/sidebar/",
@@ -5878,7 +5654,7 @@
         "functionConfig": {
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_5",
+            "value": "current_page",
             "openType": "_self"
           },
           "text": "Phasing",
@@ -5917,61 +5693,6 @@
         }
       },
       "id": "widget_363",
-      "useDataSources": []
-    },
-    "widget_364": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 10",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "NONE"
-          },
-          "text": "Portfolio",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_364",
       "useDataSources": []
     },
     "widget_365": {
@@ -6031,85 +5752,6 @@
       "id": "widget_365",
       "useDataSources": []
     },
-    "widget_366": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 12",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "text": "Rental Value",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_366",
-      "useDataSources": []
-    },
-    "widget_367": {
-      "uri": "widgets/layout/row/",
-      "version": "1.18.0",
-      "label": "Block 19",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_367",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_149"
-        }
-      }
-    },
     "widget_368": {
       "uri": "widgets/layout/fixed/",
       "version": "1.18.0",
@@ -6153,7 +5795,10 @@
         },
         "sliderColor": "#fde8d7",
         "enableDisplayAccuracy": true,
-        "displayAccuracy": "month"
+        "displayAccuracy": "month",
+        "foregroundColor": "#fde8d7",
+        "backgroundColor": "rgba(0,0,0,0)",
+        "applyFilteringByDefault": true
       },
       "id": "widget_369",
       "useDataSources": [
@@ -6481,6 +6126,7 @@
       "label": "Text 20",
       "config": {
         "text": "<p><span style=\"font-size: 1rem;\"><exp data-uniqueid=\"72735cb9_90b0_62d4_e15b_aafefef8d271\" data-dsid=\"dataSource_13-19a6e265e41-layer-68\" data-expression=\"%7B%22name%22%3A%22%7BProperty%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProperty%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_13-19a6e265e41-layer-68%22%2C%22jimuFieldName%22%3A%22L4_Property%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Property Name}﻿</span>﻿</exp>&nbsp;<span class=\"ql-cursor\">﻿</span></span></p>",
+        "placeholder": "<p><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -7174,6 +6820,7 @@
       "label": "Text 23",
       "config": {
         "text": "<p><span style=\"font-size: 16px;\">﻿</span><span style=\"font-size: 1rem; color: rgb(182, 182, 182); font-family: Arial;\">Regent Street facing North</span></p>",
+        "placeholder": "<p><span style=\"font-size: 16px;\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -7216,6 +6863,7 @@
       "label": "Text 24",
       "config": {
         "text": "<p><span style=\"color: rgb(182, 182, 182); font-family: Arial; font-size: 1rem;\">Regent Street facing South</span></p>",
+        "placeholder": "<p><span style=\"font-size: 16px;\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -7954,6 +7602,7 @@
       "label": "Page Heading 8",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"color: rgb(53, 53, 53); font-size: 4.375rem; font-family: Arial;\">Commercial Floorspace</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7986,7 +7635,8 @@
       "version": "1.18.0",
       "label": "Body Text 8",
       "config": {
-        "text": "<p style=\"line-height: 1.2;\"><span style=\"color: rgb(53, 53, 53); font-size: 1.5rem; font-family: Arial;\">A web-based geospatial dashboard that maps commercial floorspace across the estate in an intuitive 3D, time-aware environment. It gives decision-makers a clear view of current and future occupancy, highlighting where to grow, reshape, or accelerate the commercial pipeline.</span></p>",
+        "text": "<p style=\"line-height: 1.2;\"><span style=\"font-family: Arial; font-size: 1.5rem; color: rgb(53, 53, 53);\">A web-based geospatial dashboard that maps commercial floor space across the estate in an intuitive 3D, time-aware environment. It gives decision-makers a clear view of current and future occupancy, highlighting where to grow, reshape, or accelerate the commercial pipeline.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8001,7 +7651,10 @@
         "functionConfig": {
           "altText": "",
           "toolTip": "",
-          "linkParam": {},
+          "linkParam": {
+            "linkType": "BLOCK",
+            "value": "layout_186_block_3"
+          },
           "scale": "Fit",
           "imageParam": {
             "url": "${appResourceUrl}/images/widget_66/1762542974892.png",
@@ -8021,7 +7674,8 @@
         },
         "styleConfig": {}
       },
-      "id": "widget_474"
+      "id": "widget_474",
+      "useDataSources": []
     },
     "widget_475": {
       "uri": "widgets/common/text/",
@@ -8029,6 +7683,7 @@
       "label": "Scroll to dashboard text 5",
       "config": {
         "text": "<p style=\"line-height: 1;\"><span style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\">Scroll to dashboard</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8041,6 +7696,7 @@
       "label": "Page Heading 9",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 3rem; color: rgb(53, 53, 53);\">Key features</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8052,7 +7708,8 @@
       "version": "1.18.0",
       "label": "Body Text 9",
       "config": {
-        "text": "<p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">01</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> A 3D representation of the commercial floorspace showing tenancy timelines and current occupation status to support integrated decision-making; </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">02</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Filtering and navigation tools to allow users to explore projects by time frame, type, or location.</span></p>",
+        "text": "<p style=\"line-height: 1.2;\"><strong style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\">01</strong><span style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\"> A 3D representation of the commercial floor space showing tenancy timelines and current occupation status to support integrated decision-making; </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\">02</strong><span style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\"> Filtering and navigation tools to allow users to explore projects by time frame, type, or location.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8147,6 +7804,7 @@
       "label": "Confidentiality Text 6",
       "config": {
         "text": "<p><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">This webpage and the information on it are provided in confidence for The Crown Estate only and may not be disclosed to any third party of used for any other purpose.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8159,6 +7817,7 @@
       "label": "Footer Text 6",
       "config": {
         "text": "<p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">© 2025 West End Playbook</span></p><p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">Developed by Prior+Partners</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -8822,6 +8481,7 @@
       "label": "Text 28",
       "config": {
         "text": "<p><span style=\"font-size: 16px; color: var(--dark-800);\">﻿</span><span style=\"font-family: Arial; font-size: 0.8rem;\"><exp data-uniqueid=\"9c16f073_080a_6636_07dd_fe03b3dc45f3\" data-dsid=\"dataSource_17-19b1a4fe100-layer-108\" data-expression=\"%7B%22name%22%3A%22%7BDisplay%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDisplay%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_17-19b1a4fe100-layer-108%22%2C%22jimuFieldName%22%3A%22Display_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Display Name}﻿</span>﻿</exp>&nbsp;,<exp data-uniqueid=\"592595f1_90ff_2959_9183_bb7938c61b4f\" data-dsid=\"dataSource_17-19b1a4fe100-layer-108\" data-expression=\"%7B%22name%22%3A%22%7BProperty%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProperty%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_17-19b1a4fe100-layer-108%22%2C%22jimuFieldName%22%3A%22Property_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Property Name}﻿</span>﻿</exp>&nbsp;</span></p>",
+        "placeholder": "<p><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -8898,242 +8558,6 @@
         }
       ],
       "useDataSourcesEnabled": true
-    },
-    "widget_506": {
-      "uri": "widgets/layout/row/",
-      "version": "1.18.0",
-      "label": "Row 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_506",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_205"
-        }
-      }
-    },
-    "widget_507": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 15",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_5",
-            "openType": "_self"
-          },
-          "text": "Lease Tenancy Period",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#dad9db",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_507",
-      "useDataSources": []
-    },
-    "widget_508": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 16",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "NONE"
-          },
-          "text": "Portfolio",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_508",
-      "useDataSources": []
-    },
-    "widget_509": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 17",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "NONE"
-          },
-          "text": "Demise Comparison",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_509",
-      "useDataSources": []
-    },
-    "widget_510": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 18",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "NONE"
-          },
-          "text": "Rental Value",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_510",
-      "useDataSources": []
     },
     "widget_514": {
       "uri": "widgets/common/chart/",
@@ -9778,6 +9202,7 @@
       "label": "Page Heading 10",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 4.375rem; color: rgb(53, 53, 53);\">Transforming the </span></p><p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 4.375rem; color: rgb(53, 53, 53);\">West End</span></p><p style=\"line-height: 1.1;\"><br></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9811,6 +9236,7 @@
       "label": "Body Text 10",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem; color: rgb(53, 53, 53); font-family: Arial;\">A web-based geospatial dashboard presenting developments across the estate in an intuitive, time-sequenced 3D environment. </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><span style=\"font-size: 1.5rem; color: rgb(53, 53, 53); font-family: Arial;\">﻿It communicates the phasing of the estate, including development pipeline, capital works, public realm and key infrastructure projects to support strategic planning and decision-making.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9825,7 +9251,10 @@
         "functionConfig": {
           "altText": "",
           "toolTip": "",
-          "linkParam": {},
+          "linkParam": {
+            "linkType": "BLOCK",
+            "value": "layout_207_block_3"
+          },
           "scale": "Fit",
           "imageParam": {
             "url": "${appResourceUrl}/images/widget_66/1762542974892.png",
@@ -9845,7 +9274,8 @@
         },
         "styleConfig": {}
       },
-      "id": "widget_524"
+      "id": "widget_524",
+      "useDataSources": []
     },
     "widget_525": {
       "uri": "widgets/common/text/",
@@ -9853,6 +9283,7 @@
       "label": "Scroll to dashboard text 6",
       "config": {
         "text": "<p style=\"line-height: 1;\"><span style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\">Scroll to dashboard</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9865,6 +9296,7 @@
       "label": "Page Heading 11",
       "config": {
         "text": "<p style=\"line-height: 1.1;\"><span style=\"font-family: Arial; font-size: 3rem; color: rgb(53, 53, 53);\">Key features</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9959,6 +9391,7 @@
       "label": "Confidentiality Text 7",
       "config": {
         "text": "<p><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">This webpage and the information on it are provided in confidence for The Crown Estate only and may not be disclosed to any third party of used for any other purpose.</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -9971,6 +9404,7 @@
       "label": "Footer Text 7",
       "config": {
         "text": "<p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">© 2025 West End Playbook</span></p><p style=\"text-align: right;\"><span style=\"font-size: 1vw; color: rgb(255, 255, 255);\">Developed by Prior+Partners</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -10311,6 +9745,7 @@
       "label": "Text 32",
       "config": {
         "text": "<p><span style=\"font-size: 1rem; font-family: Arial;\"><exp data-uniqueid=\"72735cb9_90b0_62d4_e15b_aafefef8d271\" data-dsid=\"dataSource_13-19a6e265e41-layer-68\" data-expression=\"%7B%22name%22%3A%22%7BProperty%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProperty%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_13-19a6e265e41-layer-68%22%2C%22jimuFieldName%22%3A%22L4_Property%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Property Name}﻿﻿</span>﻿</exp>&nbsp;﻿<span class=\"ql-cursor\">﻿</span></span></p>",
+        "placeholder": "<p><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -10487,63 +9922,6 @@
       "id": "widget_557",
       "useDataSources": []
     },
-    "widget_558": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 21",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "text": "Portfolio",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_558",
-      "useDataSources": []
-    },
     "widget_559": {
       "uri": "widgets/common/button/",
       "version": "1.18.0",
@@ -10599,63 +9977,6 @@
         }
       },
       "id": "widget_559",
-      "useDataSources": []
-    },
-    "widget_560": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "label": "Button 23",
-      "config": {
-        "functionConfig": {
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "current_page",
-            "openType": "_self"
-          },
-          "text": "Rental Value",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "tertiary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false,
-              "text": {
-                "size": "18px",
-                "color": "var(--light)"
-              },
-              "background": {
-                "color": "#353535",
-                "fillType": "fill"
-              }
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "borderRadius": {
-                "number": [
-                  50,
-                  50,
-                  50,
-                  50
-                ],
-                "unit": "px"
-              },
-              "text": {
-                "size": "18px",
-                "color": "var(--dark)"
-              },
-              "background": {
-                "color": "var(--light)",
-                "fillType": "fill"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_560",
       "useDataSources": []
     },
     "widget_568": {
@@ -10923,6 +10244,7 @@
       "label": "Text 34",
       "config": {
         "text": "<p><span style=\"font-size: 1rem;\">﻿</span><span style=\"font-size: 1rem; font-family: Arial;\"><exp data-uniqueid=\"81d06ad3_8014_e867_32b8_02e33c1e07cf\" data-dsid=\"dataSource_13-19b0ddc4a68-layer-74\" data-expression=\"%7B%22name%22%3A%22%7BProperty%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BProperty%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_13-19b0ddc4a68-layer-74%22%2C%22jimuFieldName%22%3A%22L4_Property%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Property Name}﻿</span>﻿</exp>&nbsp;</span></p>",
+        "placeholder": "<p><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -11116,7 +10438,8 @@
       "version": "1.18.0",
       "label": "Development Pipeline Navigation 13",
       "config": {
-        "text": "<p style=\"line-height: 1.5;\"><a href=\"page_10\" target=\"_self\" data-uniqueid=\"0c1621ff_b0e4_d5d9_d795_3da4a3a854a9\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_10%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: Arial; font-size: 1.5rem; color: rgb(255, 255, 255);\">Commercial Floorspace</a></p>",
+        "text": "<p style=\"line-height: 1.5;\"><a href=\"page_10\" target=\"_self\" data-uniqueid=\"0c1621ff_b0e4_d5d9_d795_3da4a3a854a9\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_10%22%2C%22openType%22%3A%22_self%22%7D\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem; font-family: Arial;\">Commercial Floor space</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#ffffff"
@@ -11142,6 +10465,7 @@
       "label": "Development Pipeline Navigation 14",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><a href=\"current_page\" target=\"_self\" data-uniqueid=\"be7549a3_382b_9a52_b900_f3ab101d1e93\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22current_page%22%2C%22openType%22%3A%22_self%22%7D\" style=\"color: rgb(0, 0, 0); font-size: 1.5rem; font-family: Arial;\">Transforming the West End</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#000000"
@@ -11167,6 +10491,7 @@
       "label": "Development Pipeline Navigation 15",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><a href=\"current_page\" target=\"_self\" data-uniqueid=\"21c45c03_4897_3156_4f43_0dfa21d173fa\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22current_page%22%2C%22openType%22%3A%22_self%22%7D\" style=\"color: rgb(0, 0, 0); font-size: 1.5rem; font-family: Arial;\">Transforming the West End</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#000000"
@@ -11192,6 +10517,7 @@
       "label": "Development Pipeline Navigation 16",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><a href=\"page_9\" target=\"_self\" data-uniqueid=\"eb2cd10d_8d44_783c_080d_339d69b610e7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_9%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: Arial; font-size: 1.5rem; color: rgb(53, 53, 53);\">Transforming the West End</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#353535"
@@ -11217,6 +10543,7 @@
       "label": "Text 35",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><span style=\"color: rgb(0, 0, 0); font-size: 1.5rem; font-family: Arial;\">/</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#000000"
@@ -11230,6 +10557,7 @@
       "label": "Text 36",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><span style=\"color: rgb(0, 0, 0); font-size: 1.5rem; font-family: Arial;\">/</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#000000"
@@ -11243,6 +10571,7 @@
       "label": "Text 37",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><span style=\"color: rgb(0, 0, 0); font-size: 1.5rem; font-family: Arial;\">/</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#000000"
@@ -11255,7 +10584,8 @@
       "version": "1.18.0",
       "label": "Development Pipeline Navigation 17",
       "config": {
-        "text": "<p style=\"line-height: 1.5;\"><a href=\"page_10\" target=\"_self\" data-uniqueid=\"10cc60ca_418c_086b_1b92_d5939321a751\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_10%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">Commercial Floorspace</a></p>",
+        "text": "<p style=\"line-height: 1.5;\"><a href=\"page_10\" target=\"_self\" data-uniqueid=\"10cc60ca_418c_086b_1b92_d5939321a751\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_10%22%2C%22openType%22%3A%22_self%22%7D\" style=\"color: rgb(53, 53, 53); font-family: Arial; font-size: 1.5rem;\">Commercial Floor space</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#353535"
@@ -11280,7 +10610,8 @@
       "version": "1.18.0",
       "label": "Development Pipeline Navigation 18",
       "config": {
-        "text": "<p style=\"line-height: 1.5;\"><a href=\"page_10\" target=\"_self\" data-uniqueid=\"0423d81f_e5d2_e05d_51da_5367f83df17b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_10%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: Arial; font-size: 1.5rem; color: rgb(53, 53, 53);\">Commercial Floorspace</a></p>",
+        "text": "<p style=\"line-height: 1.5;\"><a href=\"page_10\" target=\"_self\" data-uniqueid=\"0423d81f_e5d2_e05d_51da_5367f83df17b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_10%22%2C%22openType%22%3A%22_self%22%7D\" style=\"color: rgb(53, 53, 53); font-size: 1.5rem; font-family: Arial;\">Commercial Floor space</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#353535"
@@ -11305,7 +10636,8 @@
       "version": "1.18.0",
       "label": "Development Pipeline Navigation 19",
       "config": {
-        "text": "<p style=\"line-height: 1.5;\"><a href=\"current_page\" target=\"_self\" data-uniqueid=\"a2ef012b_fcfe_f9e4_ca2f_9814be0dc454\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22current_page%22%2C%22openType%22%3A%22_self%22%7D\" style=\"color: rgb(0, 0, 0); font-size: 1.5rem; font-family: Arial;\">Commercial Floorspace</a></p>",
+        "text": "<p style=\"line-height: 1.5;\"><a href=\"current_page\" target=\"_self\" data-uniqueid=\"a2ef012b_fcfe_f9e4_ca2f_9814be0dc454\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22current_page%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: Arial; font-size: 1.5rem; color: rgb(0, 0, 0);\">Commercial Floor space</a></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "var(--light)"
@@ -11331,6 +10663,7 @@
       "label": "Body Text 12",
       "config": {
         "text": "<p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">01</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> A 3D representation of the development pipeline and capital works programme showing phasing timelines and project sequencing; </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">﻿02</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Visualisation of the Future of RSHPC public realm and district energy network layers showing phasing timelines to provide spatial context and support integrated decision-making; </span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">03</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Filtering and navigation tools to allow users to explore projects by time frame, type, or location.</span></p><p style=\"line-height: 1.2;\"><br></p><p style=\"line-height: 1.2;\"><strong style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\">﻿04</strong><span style=\"font-size: 1.5rem; font-family: Arial; color: rgb(53, 53, 53);\"> Compare properties to identify strategic opportunities and minimise risk.</span></p><p style=\"line-height: 1.2;\"><br></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -11545,6 +10878,57 @@
           "useFieldsInPopupInfo": true
         }
       ]
+    },
+    "widget_616": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.18.0",
+      "label": "Views Navigation 3",
+      "config": {
+        "data": {
+          "type": "CUSTOM",
+          "section": "section_3",
+          "views": [
+            "view_10",
+            "view_12"
+          ]
+        },
+        "display": {
+          "type": "nav",
+          "navStyle": "pills",
+          "standard": {
+            "gap": "0px",
+            "scrollable": true,
+            "showIcon": false,
+            "showText": true,
+            "iconPosition": "start",
+            "textAlign": "center"
+          },
+          "vertical": false,
+          "advanced": true,
+          "variant": {
+            "root": {
+              "bg": "rgba(0,0,0,0)"
+            },
+            "item": {
+              "default": {
+                "bg": "rgba(0,0,0,0)",
+                "color": "#ffffff"
+              },
+              "active": {
+                "color": "#000000",
+                "bg": "#fde8d7",
+                "bold": false
+              },
+              "hover": {
+                "bg": "#fde8d7",
+                "bold": true,
+                "color": "#000000"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_616"
     }
   },
   "widgetsManifest": {},
@@ -11644,6 +11028,30 @@
       "backgroundIMage": {
         "url": ""
       }
+    },
+    "view_10": {
+      "id": "view_10",
+      "label": "Show Timeline",
+      "layout": {
+        "LARGE": "layout_238"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": ""
+      }
+    },
+    "view_12": {
+      "id": "view_12",
+      "label": "Hide Timeline",
+      "layout": {
+        "LARGE": "layout_240"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": ""
+      }
     }
   },
   "sections": {
@@ -11678,6 +11086,21 @@
         "direction": "h"
       },
       "dotsNav": {
+        "visible": false
+      }
+    },
+    "section_3": {
+      "id": "section_3",
+      "label": "Section 3",
+      "views": [
+        "view_10",
+        "view_12"
+      ],
+      "autoPlay": false,
+      "dotsNav": {
+        "visible": false
+      },
+      "arrowsNav": {
         "visible": false
       }
     }
@@ -12325,16 +11748,9 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://priorpartners.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "Y3KhSX3orJd9PgmV",
-    "express": false,
-    "title": "TCE West End Playbook Intelligence Platform",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://priorpartners.maps.arcgis.com"
   },
-  "timestamp": 1765731703372,
+  "timestamp": 1766084942974,
   "sharedThemeVariables": null,
   "dataSources": {
     "dataSource_7": {
@@ -12653,8 +12069,8 @@
             "esriType": "esriFieldTypeDouble",
             "alias": "Sum of Final Development Area (Sqm)",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 0
             },
             "originFields": [
               "Sum_of__Clc_Final_Development_Area"
@@ -12707,8 +12123,8 @@
             "esriType": "esriFieldTypeDouble",
             "alias": "Sum of Current Development Area (Sqm)",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 0
             },
             "originFields": [
               "Sum_of__Dat_Area__Sq_Ft_"
@@ -12764,8 +12180,8 @@
             "esriType": "esriFieldTypeDouble",
             "alias": "Sum of Current Development Area (Sqm)",
             "format": {
-              "digitSeparator": false,
-              "places": 6
+              "digitSeparator": true,
+              "places": 0
             },
             "originFields": [
               "Sum_of__Dat_Area__Sq_Ft_"
@@ -12885,20 +12301,5 @@
         "isEnable": false
       }
     }
-  },
-  "historyLabels": {
-    "pages": {
-      "page_0": [
-        null
-      ],
-      "page_9": [
-        "Phasing 3",
-        "Transforming the West End: Phasing"
-      ],
-      "page_10": [
-        "Commercial Space"
-      ]
-    }
-  },
-  "publishTimestamp": 1765731710597
+  }
 }
